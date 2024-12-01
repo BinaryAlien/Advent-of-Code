@@ -11,6 +11,9 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
       in
-      rec { }
+      rec {
+        devShells.default = devShells."2024";
+        devShells."2024" = import ./2024/shell.nix { inherit pkgs; };
+      }
     );
 }
