@@ -1,4 +1,5 @@
 (lang dune 3.14)
 
 (package
-  (name aoc))
+  (name aoc)
+  (depends re))
