@@ -1,0 +1,3 @@
+(executables
+ (public_names d05p1 d05p2)
+ (names p1 p2))
