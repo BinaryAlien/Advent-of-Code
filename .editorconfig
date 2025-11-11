@@ -1,0 +1,13 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.ml]
+indent_size = 2
+indent_style = space
+
+[{dune,dune-project}]
+indent_size = 2
+indent_style = space
