@@ -2,4 +2,4 @@
 
 (package
  (name aoc-2015)
- (depends ocaml))
+ (depends ocaml re))
